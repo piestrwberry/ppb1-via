@@ -102,16 +102,7 @@ void tambahMahasiswa() {
 void cariMahasiswa() {
   // TODO: minta kata kunci, tampilkan semua mahasiswa yang namanya mengandung
   // kata kunci tersebut (huruf besar/kecil tidak dibedakan).
-  print('\n=== Cari Mahasiswa ===');
-  stdout.write('Nama: ');
-  String keyword = bacaTeks('').toLowerCase();
-
-  for (final mhs in daftarMahasiswa) {
-    String nama = mhs['nama'].toString().toLowerCase();
-    if (nama.contains(keyword)) {
-      cetakMahasiswa(mhs);
-    }
-  }
+  print('Fitur belum tersedia.');
 }
 
 /// Menu 6 [Sedang]: mengubah status absensi seorang mahasiswa.
